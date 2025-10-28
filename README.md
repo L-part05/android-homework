@@ -1,8 +1,8 @@
-实验1：Android界面组件实验 实验信息 课程名称：移动应用开发
+实验1：第一个Android工程实验 实验信息 课程名称：移动应用开发
 
 实验编号：实验1
 
-实验名称：Android界面组件实践
+实验名称：第一个Android工程（Hello World）
 
 学号：121052023045
 
@@ -10,7 +10,7 @@
 
 实验日期：2025.10.15
 
-实验目标 掌握Android ListView信息发送用法、自定义布局的AlertDialog用法、XML定义菜单和上下文操作模式(ActionMode)的上下文菜单的使用方法
+实验目标 创建并配置Android相关依赖包，成功运行出第一个Android工程Hello World。
 
 实验环境 环境组件 版本信息 开发工具 Android Studio Narwhal 3,Gradel 8.13 目标API API 21 开发语言 Java 项目包名com.example.myapplication
 
@@ -94,6 +94,10 @@ onCreate(): Activity生命周期方法，在Activity创建时调用
 setContentView(): 设置Activity要显示的布局文件
 
 R.layout.activity_main: 引用res/layout/activity_main.xml布局资源
+
+页面展示:
+<img width="310" height="548" alt="08a106eef04bfc6d0fb31be49452e00c" src="https://github.com/user-attachments/assets/ec292ff3-e565-4910-b613-ca94cf80cf8e" />
+
 
 2. 布局文件设计
 功能描述：定义应用界面的视觉结构，使用约束布局确保文本在屏幕中央显示。
